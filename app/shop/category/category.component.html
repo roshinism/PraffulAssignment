@@ -1,0 +1,5 @@
+<ul>
+    <li *ngFor="let c of allCategory; let counter = index" (click)="displayProduct(counter)">
+        {{ c.category }}
+    </li>
+</ul>
